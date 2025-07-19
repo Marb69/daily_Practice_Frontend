@@ -1,0 +1,36 @@
+.container{
+
+    margin: 30px;
+}
+
+#switch{
+
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+
+body{
+
+    background-color: white;
+}
+
+
+body.dark{
+
+    background-color: black;
+
+    #switch{
+
+        color: black;
+        background-color: white;
+    }
+    h1{
+
+        color: white;
+    }
+}

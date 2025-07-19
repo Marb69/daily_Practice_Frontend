@@ -1,0 +1,103 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+
+    display: flex;
+   
+
+}
+
+.form-container{
+
+    padding: 5px 10px;
+    background-color: rgb(112, 160, 203);
+    width: 20vw;
+    border-radius: 5px;
+    margin: 20px;
+}
+.form-container .text{
+
+    justify-items: center;
+    color: white;
+}
+
+.form-container .in-group{
+
+    margin: 10px;
+        color: white;
+}
+.form-container .in-group input{ 
+
+    width: 100%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+       margin-top: 5px;
+}
+
+.form-container .button #addProject{
+
+    padding: 5px 15px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(1, 163, 251, 0.852);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    
+}
+
+.project-container{
+
+    padding: 30px;
+    
+}
+.project-container .card-wrap{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+.project-container .card-wrap .card{
+
+    padding: 10px;
+    background-color: rgb(187, 191, 195);
+    width: 10vw;
+    height: 20vh;
+    border-radius: 4px;
+    text-align: justify;
+    align-content: center;
+    color: rgb(54, 52, 52);
+    box-shadow: 0 10px 10px rgb(164, 163, 163);
+    margin: 10px;
+}
+
+.project-container .card-wrap .card h3{
+
+    font-size: 1.5rem;
+
+}
+.project-container .card-wrap .card p{
+
+    margin-top: 5px;
+}
+.project-container .card-wrap .card button {
+
+    margin-top: 10px;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,149 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: 'Poppins',sans-serif;
+    background-color: black;
+    color: white;
+}
+.container{
+
+    justify-content: center;
+    align-items: center;
+    
+    padding: 40px;
+    display: flex;
+    gap: 35px;
+
+}
+
+.quiz-content{
+
+    background-color: rgb(96, 100, 103);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(50, 50, 50);
+    padding: 10px;
+}
+
+.ans  button{
+
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: red;
+    font-weight: 550;
+    letter-spacing: 5px;
+    color: white;
+    margin-top: 10px;
+}
+.ans {
+
+    margin: 10px;
+}
+.ans input{
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    outline-color: red;
+}
+
+.context{
+
+    text-align: center;
+    h1{
+
+        margin: 10px;
+        background-color: rgb(8, 8, 102);
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
+.perfect h1{
+
+    justify-self: center;
+    font-size: 2.5rem;
+    letter-spacing: 2.5rem;
+}
+
+footer{
+
+    padding: 10px;
+    background-color: rgb(52, 45, 45);
+}
+
+.fot-con p{
+
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+.form-con{
+
+    background-color: rgb(161, 180, 174);
+    width: 20vw;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-con input,textarea{
+
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-con button{
+
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(211, 182, 17);
+    color: white;
+
+}
+
+@media only screen and (max-width:600px){
+
+
+    footer{
+
+        justify-items: center;
+    }
+    .container{
+
+        display: block;
+    }
+
+    .intruc{
+        margin-bottom: 15px;
+    }
+
+    .fot-con{
+
+        padding: 10px;
+        justify-items: center;
+    }
+    .form-con{
+
+        width: 90%;
+        
+    }
+
+    .perfect h1{
+
+        
+        letter-spacing: 10px;
+
+    }
+}

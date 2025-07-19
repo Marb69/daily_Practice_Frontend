@@ -1,0 +1,146 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+header .container{
+
+    display: flex;
+    gap: 15px;
+    padding: 25px 35px;
+    align-items: center;
+    border-bottom:solid  1px whitesmoke;
+    box-shadow: 0 1px 3px rgb(198, 197, 197);
+}
+header .container .logo svg{
+
+    width: 50px;
+}
+
+header .container nav{
+
+    display: flex;
+    width: 100%;
+ 
+}
+
+header .container nav .find-store{
+ 
+    margin-left: auto;
+ 
+
+    li{
+
+           padding: 5px 15px;
+    }
+}
+
+header .container nav ul{
+
+    list-style-type: none;
+    font-family:"TikTok Sans", sans-serif;
+}
+
+
+header .container nav .navlink li{
+
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color:#000000;
+    text-transform: uppercase;
+}
+
+header .container nav ul {
+
+    padding: 5px 20px;
+     display: flex;
+    list-style: none;
+ 
+}
+
+
+.container-content {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px 600px 400px 600px;
+    padding: 30px;
+    row-gap: 10px;
+}
+
+.container-content .content{
+
+    background-color: antiquewhite;
+    display: flex;
+   
+}
+
+.container-content .content .image img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.container-content .content .image {
+
+    width: 100%;
+}
+
+.container-content .content .context{
+
+    padding: 40px;
+}
+
+.container-content .content .context{
+
+    justify-items: center;
+    width: 100%;
+     align-content: center;
+}
+
+.container-content .content .context .context-con{
+    justify-items: center;
+       width: 33vw;
+           text-align: center;
+           color: #8C9482;
+                font-family:  "TikTok Sans", sans-serif;
+           
+}
+.container-content .content .context .context-con h2{
+
+    font-size: 3.5rem;
+    text-align: center;
+    
+ 
+
+}
+
+.container-content .content .context .context-con p{
+
+
+     font-size: 1.8rem;
+     margin-top: 10px;
+     margin-bottom: 15px;
+     color: #32462F;
+}
+
+.container-content .content .context .context-con a{
+
+    padding: 5px 15px;
+    border: solid 1px ;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #32462F;
+}
+
+
+
+
+
+
+  
+

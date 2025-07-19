@@ -1,0 +1,151 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+.container{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.to-do-container{
+
+    background-color: #FFFBDE;
+    overflow: hidden;
+    width: 20vw;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px wheat;
+}
+
+.title {
+
+    background-color: #129990;
+    padding: 5px 10px;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container-all{
+
+    padding: 10px;
+}
+.add-task-container .input{
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 10px;
+    width: 15vw;
+    justify-self: center;
+}
+
+.add-task-container .input input{
+
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 30px;
+    border: solid 1px #129990 ;
+    outline-color: #129990;
+    color: #129990;
+}
+
+.add-task-container .input svg{
+
+    position: absolute;
+    right: 0;
+    left: 90%;
+    top: 4%;
+    bottom: 0;
+    z-index: 2;
+    width: 20px;
+    color: #129990;
+      transition: all 0.3s ease-in-out;
+
+}
+.add-task-container .input svg:hover{
+
+    transform: scale(1.1);
+    color: #096B68;
+    cursor: pointer;
+}
+
+.dolist-container{
+
+    margin-top: 10px;
+   
+    
+}
+.inner-container{
+
+      overflow-y: auto;
+      scrollbar-width: 10px;
+     max-height: 260px;
+   
+
+}
+.inner-container::-webkit-scrollbar{
+
+      
+     width: 0px;
+
+}
+.dolist-container .list-parent{
+
+    list-style-type: none;
+   
+}
+
+.dolist-container #list-parent .list{
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #096B68;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.dolist-container #list-parent .list .task-name{
+
+    color: #096B68;
+    font-family: 'Poppins',sans-serif;
+    font-size: .9rem;
+}
+
+
+.dolist-container #list-parent .list p.done{
+
+    text-decoration: line-through #096B68 2px ;
+    cursor: pointer;
+}
+
+
+
+.dolist-container #list-parent .list span svg{
+
+    width: 15px;
+    align-self: flex-end;
+    color: #129990;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.dolist-container #list-parent .list span svg:hover{
+
+    transform: translateY(-2px);
+    color: red;
+}
+

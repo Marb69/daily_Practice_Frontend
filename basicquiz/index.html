@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Frontend quiz</title>
+</head>
+<body>
+
+
+    <div class="container">
+
+
+        <div class="intruc">
+
+       <p>Note:Tanang answer is one word lang and then the Frontend <br> language is acronym lng nila😊</p>
+             <h1>Score 0/5</h1>
+            <p>Backgroundcolor=>Red</p>
+            <h1>Score 1/5</h1>
+            <p>Backgroundcolor=>Orange</p>
+             <h1>Score 3/5</h1>
+            <p>Backgroundcolor=>Yellow</p>
+             <h1>Score 5/5</h1>
+            <p>Backgroundcolor=>Blue</p>
+            
+        </div>
+        <div class="quiz-content">
+
+          <div class="context">
+            <h1 id="valid">IT Ka? Answer na!</h1>
+          </div>
+            <div class="ques">
+                <label for="an1">1.What language use for Styling? <p id="wrong"></p></label>
+
+            </div>
+            <div class="ans">
+              <input type="text" placeholder="Enter your answer"  id="an1">
+            </div>
+             <div class="ques">
+                <label for="an2">2. A Frontend language known as nervous system <p id="wrong"></p></label>
+
+            </div>
+            <div class="ans">
+              <input type="text" placeholder="Enter your answer" id="an2">
+            </div>
+             <div class="ques">
+                <label for="an3">3. A language is used for structuring a website <p id="wrong"></p></label>
+
+            </div>
+            <div class="ans">
+              <input type="text" placeholder="Enter your answer" id="an3">
+            </div>
+              <div class="ques">
+                <label for="an3">3. Kinsa man ko (firstname lng)? <p id="wrong"></p></label>
+
+            </div>
+            <div class="ans">
+              <input type="text" placeholder="Enter your answer" id="an4">
+            </div>
+             <div class="ques">
+                <label for="an5">5. Birthdate nko nus a man?(Month lang) <p id="wrong"></p></label>
+
+            </div>
+            <div class="ans">
+              <input type="text" placeholder="Enter your answer" id="an5">
+            </div>
+
+            <div class="ans">
+                <button onclick="SUB()">SUBMIT</button>
+            </div>
+        </div>
+        <div class="quiz-score">
+            <h1>Your Score: <p id="score"></p></h1>
+        </div>
+    </div>
+    
+    <div class="perfect">
+
+       <H1 id="per"></H1>
+    </div>
+    <footer>
+      <div class="fot-con">
+       <p>Leave a feedback if oky ra.</p>
+
+       <form action="" id="feedback">
+ <div class="form-con">
+        <div class="inp-g">
+          <label for="">Name</label>
+          <input type="text" placeholder="Your name" name="name" required>
+        </div>
+        <div class="inp-g">
+           <label for="">Course</label>
+          <input type="text" placeholder="Your Course" name="Course" required>
+        </div>
+        <div class="inp-g">
+           <label for="">feedback/Message</label>
+           <textarea name="" id="" placeholder="Message" name="message" required></textarea>
+        </div>
+        <div class="inp-g">
+       <button type="submit" form="feedback">Submit</button>
+       </form>
+      
+        </div>
+       </div>
+      </div>
+    </footer>
+     <script  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="script.js">
+    
+    </script>
+    
+</body>
+</html>

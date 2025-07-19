@@ -1,0 +1,493 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+body{
+
+    font-family: 'Poppins',sans-serif;
+}
+header{
+
+    padding: 20px 35px;
+    position: relative;
+    backdrop-filter: blur(10px);
+    top: 0px;
+   background-color: white;
+}
+
+header .container{
+
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+     
+
+}
+
+header .container nav{
+
+    
+    border-bottom: 1px solid rgb(215, 212, 212);
+    padding: 5px 15px;
+    border-radius: 20px;
+    box-shadow: 0 6px 5px rgb(230, 228, 228);
+    align-content: end;
+
+}
+header .container nav ul{
+
+    display: flex;
+    list-style-type: none;
+  
+   
+    
+}
+
+header .container nav ul li a{
+
+    padding: 5px 15px;
+    text-decoration: none;
+    color: rgb(85, 81, 81);
+    font-weight: 500;
+}
+
+header .container .logo h1{
+
+    color: rgb(255, 204, 0);
+}
+header .container .logo span{
+
+    color: rgb(110, 110, 114);
+}
+
+header .container .user {
+
+    align-content: center;
+    
+  a{
+   background-color: aliceblue;
+    padding: 5px 15px;
+    border-radius: 30px;
+    color: rgb(63, 60, 60);
+    font-weight: 500;
+    text-decoration: none;
+  }
+}
+.container-hero {
+
+    padding: 50px;
+    height: 100vh;
+    
+}
+.container-hero .container-content .hero-image img{
+
+    width: 500px;
+}
+
+.container-hero .container-content{
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.container-hero {
+
+    justify-items: center;
+}
+.container-hero .container-content .content .context .main{
+
+    margin-bottom: 10px;
+}
+.container-hero .container-content .content .context .main h3{
+
+    font-size: 3em;
+    color: rgb(122, 122, 109);
+    line-height: 1.1;
+   
+}
+
+.container-hero .container-content .content .context .main span{
+
+    color: rgb(255, 204, 0);
+
+}
+
+.container-hero .container-content .content .context .sub p{
+
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.container-hero .container-content .content .context  button{
+
+    padding: 10px 25px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(255, 221, 0);
+    font-weight: 520;
+    color: rgb(255, 255, 255);
+}
+
+.container-service{
+
+    padding: 50px;
+    background-color: rgb(224, 221, 218);
+}
+.container-service .container-content{
+
+    justify-items: center;
+}
+
+.container-service .container-content h3{
+
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.container-service .container-content .cards-wrap{
+
+    display: flex;
+}
+
+.container-service .container-content .cards-wrap .card{
+
+    box-shadow: 0 5px 10px rgb(177, 176, 176);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 15vw;
+}
+
+.container-service .container-content .cards-wrap .card .context{
+
+    padding: 10px;
+}
+.container-service .container-content .cards-wrap .card .context h4{
+
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    
+}
+
+.container-service .container-content .cards-wrap .card .context p{
+
+    font-weight: 500;
+    color: rgb(91, 87, 87);
+    font-style: italic;
+}
+
+.container-about{
+
+    padding: 50px;
+}
+.container-about .container-content{
+
+    justify-items: center;
+}
+.container-about .container-content .about-wrap{
+
+    display: flex;
+    align-items: center;
+    width: 80vw;
+}
+
+.container-about .container-content .about-wrap .image img{
+
+    width: 500px;
+}
+.container-about .container-content .dev-container .title h3{
+
+    font-size: 1.5rem;
+}
+.container-about .container-content .dev-container .dev-profile {
+
+    width: 50vw;
+    display: flex;
+    margin: 30px;
+    align-items: center;
+}
+.container-about .container-content .dev-container .dev-profile .avatar img{
+
+    width: 150px;
+    padding: 10px;
+
+}
+
+.container-contact{
+
+    padding: 50px;
+    background-color: rgb(98, 93, 93);
+}
+.content-contact{
+
+    justify-items: center;
+  
+}
+
+.content-contact .form-container .input-group label{
+
+    color: white;
+}
+.content-contact .form-container .input-group input,textarea{
+
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+   
+}
+
+.content-contact .form-container .input-group textarea{
+
+    height: 20vh;
+    resize: none;
+}
+.content-contact .form-container {
+
+    width: 30vw;
+}
+
+.content-contact .form-container button{
+
+    padding: 10px 15px;
+    width: 100%;
+    background-color: rgb(13, 99, 220);
+    border-radius: 10px;
+    border: none;
+}
+
+.container-project .navside .logo{
+
+    padding: 15px;
+}
+.container-project .navside .logo h1{
+
+    color: rgb(255, 204, 0);
+}
+.container-project .navside .logo span{
+
+    color: rgb(110, 110, 114);
+}
+
+.container-project{
+
+    display: flex;
+   scroll-behavior: smooth;
+   position: relative;
+
+}
+.container-project .navside{
+
+    background-color: rgb(255, 255, 255);
+    border-right: solid 1px rgb(186, 186, 186);
+    top: 0px;
+    width: 15vw;
+    height: 100vh;
+    
+    position: fixed;
+ 
+}
+
+.container-project .navside .contact-info{
+
+     background-color: rgb(61, 61, 61);
+    padding: 10px;
+    height: 100%;
+}
+.container-project .navside .contact-info ul li{
+
+    border: none;
+    color: rgb(157, 157, 157);
+    padding: 2px;
+    font-size: .9rem;
+}
+
+.container-project .navside .contact-info img{
+
+    width: 20px;
+   
+}
+
+.container-project .navside .contact-info .user a{
+
+
+    text-decoration: none;
+    color: rgb(157, 157, 157);
+  
+}
+.container-project .navside ul{
+
+    list-style-type: none;
+    height:15%;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+.container-project .navside .nav-home .user a{
+
+    text-decoration: none;
+  color: rgb(119, 115, 115);
+}
+.container-project .navside .nav-home ul li{
+
+    padding: 10px 0px;
+   
+} 
+.container-project .navside .nav-home {
+
+    padding: 10px 10px;
+   
+}
+
+.container-project .navside .project-nav{
+
+    padding: 0 10px;
+}
+
+.container-project .navside .project-nav h4{
+
+    color: rgb(65, 69, 72);
+    font-size: 1.3rem;
+}
+.container-project .navside .project-nav ul li{
+
+    padding: 10px 10px;
+    border-bottom: 1px solid rgb(105, 103, 103);
+}
+.container-project .navside ul li a{
+
+    text-decoration: none;
+    color: rgb(119, 115, 115);
+   
+}
+
+section .container-proj-card .proj-name h3{
+
+    font-size: 1.5rem;
+    border-bottom: 1px solid  rgb(117, 111, 111) ;
+    color: rgb(118, 117, 115);
+    width: 15vw;
+}
+.container-proj-card{
+
+    padding: 20px;
+       margin-left:250px;
+ 
+}
+
+.container-proj-card .items-wrap {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.container-proj-card .items-wrap .items{
+
+    width: 18.5vw;
+    box-shadow: 0 8px 12px rgb(200, 197, 197);
+    border-radius: 10px;
+    margin: 10px;
+     transition: all ease-in-out 0.3s;
+
+}
+
+.container-proj-card .items-wrap .items:hover{
+
+    transform: translateY(-10px);
+    transition: all ease-in-out 0.3s;
+}
+
+ .container-proj-card .items-wrap .items .image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.container-proj-card .items-wrap .items .context{
+
+    padding: 10px;
+}
+.container-proj-card .items-wrap .items .context button{
+
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(218, 196, 4);
+    color: white;
+}
+footer .container {
+
+
+    padding: 50px;
+    background-color: rgb(61, 61, 61);
+
+}
+
+footer .container .content{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .container .content .logo img{
+
+    width: 130px;
+
+}
+
+footer .container .content ul{
+
+    list-style-type: none;
+}
+
+footer .container .content ul li{
+
+    padding-top: 5px;
+    color: rgb(198, 197, 197);
+}
+
+footer .container .content .quicklink ul li a{
+
+    text-decoration: none;
+        color: rgb(198, 197, 197);
+        font-size: .9rem;
+
+}
+
+footer .container .content .quicklink h4{
+
+    font-size: 1.2rem;
+    color: white;
+}
+
+footer .container .content .contact-info ul #s-media{
+
+    display: flex;
+
+    p{
+
+        padding-right: 10px;
+    }
+}
+
+footer .container .content .contact-info ul #s-media img{
+
+    width: 25px;
+    margin: 10px;
+}
