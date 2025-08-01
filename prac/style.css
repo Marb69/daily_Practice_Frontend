@@ -22,6 +22,11 @@
     text-align: center;
     color: rgb(18, 134, 222);
 }
+
+.form-wrap .Create-Account{
+
+    text-align: center;
+}
 .form-wrap{
 
     width: 20vw;
