@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul{
+
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.hero-content{
+
+    display: flex;
+}
+.hero-content img{
+
+     width: 500px;
+}
+
+.hero-content .context{
+
+    align-content: center;
+ 
+}
+
+.hero-content .context h3{
+
+    font-size: 2.5rem;
+    color: rgb(149, 0, 255);
+}
+
+
+.hero-content .context p{
+
+    padding: 10px 0;
+    color: rgb(74, 70, 70);
+}
+
+
+.hero-content #click{
+
+    padding: 7px 10px;
+    background-color: rgb(36, 80, 255);
+    color: white;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+}
+
+.card-container {
+
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+.card-container .card{
+
+
+  
+    width: 100%; 
+    background-color: #6a00ff;
+    height: 400px;
+    border-radius: 10px;
+
+}
+
+footer .content-footer{
+
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+
+    .navbar{
+
+        flex-direction: column;
+    }
+
+    nav{
+
+        width: 100%;
+    }
+    nav ul{
+
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+       
+    }
+    nav ul li{
+
+         border-bottom: 1px solid gray;
+         padding: 5px 0;
+    }
+
+    .hero-content{
+
+        flex-direction: column;
+    }
+
+    .hero-content img{
+
+        width:100%;
+      
+    }
+
+    .card-container{
+
+        flex-direction: column;
+    }
+
+    .context #click{
+
+         width: 100%;
+         padding: 15px 10px;
+    }
+}
